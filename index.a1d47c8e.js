@@ -20001,7 +20001,13 @@ const UT = U({
               }), r.value = h.slice(0, 100)
           };
           Ie(e.launches, (h, d) => {
-              console.log(r.value.length, h.length, d.length), console.log("##### - h[0]", h[0]), !(s.value && r.value.length > 0 && h.length === d.length) && u()
+              console.log(r.value.length, h.length, d.length),
+                console.log("##### - h[0].id", h[0].id),
+                console.log("##### - d[0].id", d[0].id),
+                console.log("##### - r.value[0].id", r.value[0].id),
+                console.log("##### - e", e),
+                
+                !(s.value && r.value.length > 0 && h.length === d.length) && u()
           }), Ie(t, (h, d) => {
               h !== d && u()
           });
