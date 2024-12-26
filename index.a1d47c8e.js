@@ -20001,7 +20001,7 @@ const UT = U({
               }), r.value = h.slice(0, 100)
           };
           Ie(e.launches, (h, d) => {
-              console.log(r.value.length, h.length, d.length), console.log("##### - Custom script loaded!"), !(s.value && r.value.length > 0 && h.length === d.length) && u()
+              console.log(r.value.length, h.length, d.length), console.log("##### - first listedTimestamp", h[0].listedTimestamp), !(s.value && r.value.length > 0 && h.length === d.length) && u()
           }), Ie(t, (h, d) => {
               h !== d && u()
           });
